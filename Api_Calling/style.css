@@ -1,0 +1,63 @@
+nav{
+    color:#000;
+    height:20vh;
+    width:100%;
+}
+    
+.navitems{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.navitems h2{
+    font-size:40px
+}
+.navitems button{
+    background:#161b18;
+    border:2px solid transparent;
+    border-radius:20px;color:#f2f8f3;
+    font-family:serif;
+    font-size:20px;
+    height:10vh;
+    margin:auto 0;
+    width:30%;
+}
+.fetchbtn:hover{
+    background-color:#30d830;
+    color:#0a0a0a;
+}
+.userdatacontainer{
+    background-color:#fffffe;
+    height:-webkit-fit-content;
+    height:-moz-fit-content;
+    height:fit-content;
+    width:100%;
+}
+#main{
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.name:hover{
+    color:orange;
+}
+.avatar{
+    border-radius:100%;
+}
+.profile_cont{
+    background-color:#4a5353;
+    border-radius:10%;
+    color:#fff;
+    margin:0 5px 5px;opacity:1;
+    padding:5px;
+    text-align:center;
+    transition:-webkit-transform .2s ease;
+    transition:transform .2s ease;
+    transition:transform .2s ease,-webkit-transform .2s ease;
+    width:24%;
+
+}
+.profile_cont:hover{
+    opacity:1;-webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
